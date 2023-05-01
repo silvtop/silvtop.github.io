@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/brie.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <link rel="shortcut icon" href="imagem/icons8-carro-16.png">
+  <!-- colocar um desenho no cabecario do site -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <title>Lotus Mecanica Rapida ></title>
+</head>
+
+
+<body>
+  <div class=" container-fluid p-0 ">
+    <div class="row">
+      <div class="col sm-12">
+
+        <style>
+          ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333; 
+            background-image: linear-gradient(to right, black, white)
+          }
+
+          li {
+            float: left;
+          }
+
+          li a {
+            display: block;
+            color: black;
+            text-align: center;
+            
+            padding: 20px 15px;
+            text-decoration: none;
+          }
+
+          li a:hover:not(.active) {
+            background-color: #111;
+          }
+        </style>
+
+
+  
+        <ul class="p-4">
+
+          <div class=" padraomenuafastar"><li><a href="#servicos" class="btn bg-warning p-3 mt-3 border border-dark">Serviços</a></li></div>
+          <div class="padraomenuafastar "><li><a href="#agenda" class="btn bg-warning p-3 mt-3 border border-dark">Agendamento</a></li></div>
+          <div class="col-3 d-inline"><li><a href="#contato" class="btn bg-warning p-3 mt-3 border border-dark">Contato</a></li></div>
+          <div class="col-3 d-inline"><li><a href="#manute" class="btn bg-warning p-3 mt-3 border border-dark">Clube Manutençao</a></li></div>
+        </ul>
+      </div>
+    </div>
+  
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <DIV class="container-fluid badge-dark">
+    <div class="row  ">
+      <div class="col-xl-12 mt-0 p-0"><img src="imagem/PAGABERTURA.png" class=" w-100 padraoabertura">
+      </div>
+    </div>
+  </DIV>
+
+  </div>
+
+
+  <DIV class="container">
+    <div class="row ">
+      
+      <div  class=" col-xl-12 padraoservicos" id="servicos"><img src="imagem/SERVIÇOScom freio.png" alt="" class="w-100"></div>
+
+      <div class="container col-xl-12 mb-3 menuservicos">
+
+
+        <button type="button" class=" col-sm-2 btn btn-primary p-3 menuservicos" data-bs-toggle="popover"
+          title="EQUIPE LOTUS" data-bs-content="Realizamos a manutencao do seu freio.">
+          FREIO
+        </button>
+
+
+        <button type="button" class="  col-sm-2 btn btn-primary p-3 menuservicos" data-bs-toggle="popover"
+          title="EQUIPE LOTUS" data-bs-content="Realizamos a revisao de farois e lanternas.">
+          ELETRICA
+        </button>
+
+        <button type="button" class=" col-sm-2 btn btn-primary p-3 menuservicos" data-bs-toggle="popover"
+          title="EQUIPE LOTUS" data-bs-content="Realizamos a revisao de pneus.">
+          PNEUS
+        </button>
+
+        <button type="button" class=" col-sm-2 btn btn-primary p-3 menuservicos" data-bs-toggle="popover"
+          title="EQUIPE LOTUS" data-bs-content="Realizamos a revisao de suspensão.">
+          SUSPENSÃO
+        </button>
+      </div>
+
+      <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+          return new bootstrap.Popover(popoverTriggerEl)
+        })
+
+
+      </script>
+    </div>
+  </div>
+  </div>
+
+  <DIV class="container-fluid badge-dark">
+    <div class="row">
+      <div class="col col-xl-12  p-0" id="manute"><img src="imagem/clubmanute.png" alt="" class="w-100">
+        <div class="padraomenu badge-light text-lg-center p-0"> <button id="botaomanutencao"
+            class="p-3 mt-3 bg-success text-dark"><B> Cadastro Clube da Manutencao</B> </button></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="  col-sm-4  feedback">
+        <div>
+          <img src="imagem/feedback1.png" alt="" class="w-100 feedback ">
+        </div>
+      </div>
+
+
+      <div class="  col-sm-4  feedback">
+
+        <div>
+          <img src="imagem/feedback2.png" alt="" class="w-100 feedback">
+        </div>
+
+      </div>
+
+      <div class=" col-sm-4  feedback">
+        <div>
+          <img src="imagem/feedback3.png" alt="" class="w-100 ">
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <DIV class="container-fluid badge-dark">
+    <div class="row  ">
+      <div class="col-xl-12 mt-0 p-0" id="agenda"><img src="imagem/AGENDAMENTO C FORMULARIO.png" class=" w-100 padraoabertura">
+        <div class="padraomenu badge-light text-lg-center"> <button id="myBtn111"
+            class="p-3 mt-3 bg-success text-dark"><B> AGENDAMENTO DE SERVIÇOS</B> </button></div>
+            
+
+      </div>
+    </div>
+  </DIV>
+
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="  col-sm-3 p-0 ">
+        <DIV id="manute">
+          <a href="#manute"> <img src="imagem/clube manutebcao logo.png " alt="" class="MANUTENCAOLOGO"></a> 
+
+        </div>
+        
+
+
+      </div>
+    </div>
+
+
+
+    <div class="  col-sm-3 p-0 ">
+      <div>
+        <a href="#agenda" >
+          <img src="imagem/agendamentoverde.png " alt="" class="AGENDAMENTO" >
+        </a>
+      </div>
+    </div>
+
+
+    <div class=" col-sm-3 p-0 "><a href="#contato">
+        <img src="imagem/contatoamarelo.png" alt="" class="CONTATO" ></a></div>
+  </div>
+  </div>
+
+
+
+
+  <!-- FORMULARIO CONTATO -->
+  <div class="container-fluid  border border-dark">
+    <div class=" row ">
+      <div class="  col-xl-6 p-0 " id="contato">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.774098483783!2d-46.528800724694904!3d-23.46861167886364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef559cf4ee709%3A0x1717e03b607d1685!2sSenac%20Guarulhos%20-%20Faccini!5e0!3m2!1spt-BR!2sbr!4v1682036934638!5m2!1spt-BR!2sbr"
+          width="850" height="600" style="border:0;padding: 20px;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+
+      <div class="  col-xl-6 p-3">
+        <form action="" method="post" class="form-control" style="padding: 30px;">
+
+
+          <div>
+            <h1 style="margin-top:-20px;margin-left: 300px;">CONTATO</h1>
+            <hr>
+          </div>
+
+
+          <div>
+            <label for="txtNome">Nome</label><br>
+            <input type="text" name="txtNome" id="txtNome" class="form-control" placeholder="Nome Usuário" required>
+          </div>
+
+          <div>
+            <label for="txtNascimento">Data Nascimento</label><br>
+            <input type="date" name="txtNascimento" id="txtNascimento" class="form-control" required>
+          </div>
+
+
+
+
+          <div>
+            <label for="txtEstadoCivil">Estado Civil</label><br>
+            <select name="txtEstadoCivil" id="txtEstadoCivil" class="form-control" required>
+              <option value="">-- selecione --</option>
+              <option value="Casado(a)">Casado(a)</option>
+              <option value="Solteiro(a)">Solteiro(a)</option>
+              <option value="Viuvo(a)">Viuvo(a)</option>
+              <option value="Divorciado(a)">Divorciado(a)</option>
+              <option value="Outros">Outros</option>
+            </select>
+          </div>
+
+
+
+          <div>
+            <label for="txtObs">Observação</label> <br>
+            <textarea name="txtStatus" id="txtStatus" class="form-control" cols="30" rows="5"></textarea>
+          </div>
+
+          <div class="text-end mt-3">
+            <button class="btn btn-primary"> ENVIAR</button>
+
+
+            <button class="btn btn-danger">SAIR</button>
+            <a href="apresentaçao.html" class="btn btn-dark">Limpar</a>
+          </div>
+      </div>
+      </form>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <!-- css-formulario agendamento -->
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* The Modal (background) */
+    .modal1 {
+      display: none;
+      /* Hidden by default */
+      position: fixed;
+      /* Stay in place */
+      z-index: 1;
+      /* Sit on top */
+      padding-top: 100px;
+      /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%;
+      /* Full width */
+      height: 100%;
+      /* Full height */
+      overflow: auto;
+      /* Enable scroll if needed */
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4);
+      /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    .modal-content1 {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+    }
+
+    /* The Close Button */
+    .close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  </style>
+  <!-- css-formulario agendamento -->
+
+
+
+
+
+
+
+
+
+
+  <!-- inicio formulario manutencao -->
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* The Modal (background) */
+    .modal {
+      display: none;
+      /* Hidden by default */
+      position: fixed;
+      /* Stay in place */
+      z-index: 1;
+      /* Sit on top */
+      padding-top: 100px;
+      /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%;
+      /* Full width */
+      height: 100%;
+      /* Full height */
+      overflow: auto;
+      /* Enable scroll if needed */
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4);
+      /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    .modal-content {
+      position: relative;
+      background-color: #fefefe;
+      margin: auto;
+      padding: 0;
+      border: 1px solid #888;
+      width: 80%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      -webkit-animation-name: animatetop;
+      -webkit-animation-duration: 0.4s;
+      animation-name: animatetop;
+      animation-duration: 0.4s
+    }
+
+    /* Add Animation */
+    @-webkit-keyframes animatetop {
+      from {
+        top: -300px;
+        opacity: 0
+      }
+
+      to {
+        top: 0;
+        opacity: 1
+      }
+    }
+
+    @keyframes animatetop {
+      from {
+        top: -300px;
+        opacity: 0
+      }
+
+      to {
+        top: 0;
+        opacity: 1
+      }
+    }
+
+    /* The Close Button */
+    .close {
+      color: white;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .modal-header {
+      padding: 2px 16px;
+      background-color: #5cb85c;
+      color: white;
+    }
+
+    .modal-body {
+      padding: 2px 16px;
+    }
+
+    .modal-footer {
+      padding: 2px 16px;
+      background-color: #5cb85c;
+      color: white;
+    }
+  </style>
+
+
+  <!-- Trigger/Open The Modal -->
+
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>CADASTRO MANUTENCAO</h2>
+      </div>
+      <div class="modal-body">
+        <DIV class="col-sm-12 badge-danger">
+          <CENTER><B>CADASTRO CLUBE DA MANUTENÇÃO</B></CENTER>
+        </DIV>
+        <div class="col-sm-12  ">
+          <label for="txtNome">Nome</label><br>
+          <input type="text" name="txtNome" id="txtNome" class="form-control" placeholder="Nome Usuário" required>
+          <!-- placeholder-mascara ======required signifaca obrigatorio -->
+        </div>
+
+        <div class="col-sm-4">
+          <label for="txtNascimento">Data Nascimento</label><br>
+          <input type="date" name="txtNascimento" id="txtNascimento" class="form-control" required>
+        </div>
+        <div class="col-sm-6">
+          <label for="txtEstadoCivil">Estado Civil</label><br>
+          <select name="txtEstadoCivil" id="txtEstadoCivil" class="form-control" required>
+            <option value="">-- selecione --</option>
+            <option value="Casado(a)">Casado(a)</option>
+            <option value="Solteiro(a)">Solteiro(a)</option>
+            <option value="Viuvo(a)">Viuvo(a)</option>
+            <option value="Divorciado(a)">Divorciado(a)</option>
+            <option value="Outros">Outros</option>
+          </select>
+        </div>
+        <div class="col-sm-6">
+          <label for="txtcarro">Carro</label><br>
+          <select name="txtcarro" id="txtcarro" class="form-control" required>
+            <option value="">-- selecione --</option>
+            <option value="Fiat">Fiat</option>
+            <option value="Volks">Volks</option>
+            <option value="Chevrolet">Chevrolet</option>
+            <option value="Ford">Ford</option>
+            <option value="Hynday">Hynday</option>
+            <option value="Caoa">Caoa</option>
+            <option value="Outros">outros</option>
+          </select>
+        </div>
+
+        <div class="col-sm-12">
+          <label for="cidades" class="form-label">Regiao Sao Paulo</label>
+          <input class="form-control" list="datalistOptions" id="cidades" placeholder="escolha a cidade">
+          <datalist id="datalistOptions">
+            <option value="zona Norte">
+            <option value="Zona Sul">
+            <option value="Zona Leste">
+            <option value="Zona Oeste">
+            <option value="Interior">
+          </datalist>
+        </div>
+
+        <div class="col-sm-12">
+          <label for="txtObs">Observação</label> <br>
+          <textarea name="txtStatus" id="txtStatus" class="form-control" cols="30" rows="5"></textarea>
+        </div>
+        <div class="text-end m-auto p-5">
+
+          <button class="btn btn-success">Cadastrar</button>
+
+          <button class="btn btn-danger">Excluir</button>
+          <a href="apresentaçao.html" class="btn btn-dark">Limpar</a>
+        </div>
+      </div>
+      </form>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  </div>
+
+  </div>
+
+  </div>
+
+
+
+
+
+
+
+
+  <!-- FIM DO FORMULARIO CLUBE DA MANUTENCAO -->
+
+
+
+
+  <div class="container-fluid badge-dark ">
+
+    <div class="row col-xl-12 p-3" style="left: 600px;">
+      <p class="text-warning bg-dark p-3" style="height: 100px;"><img src="imagem/facebook.png"
+          style="border-radius: 50px;" alt=""></p>
+      <p class="text-warning bg-dark p-3" style="height: 100px;"><img src="imagem/instagram.jpg"
+          style="border-radius: 50px;" alt=""></p>
+      <p class="text-warning bg-dark p-3" style="height: 100px;"><img src="imagem/twiter.png"
+          style="border-radius: 50px;" alt=""></p>
+
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!-- Trigger/Open The Modal -->
+  <!-- <button id="myBtn111">
+    <div class="col-sm-12 bg-success text-white"><b>AGENDAMENTO PARA EXECUTAR SERVIÇOS cccc</b></div>
+  </button> -->
+
+  <!-- The Modal -->
+  <div id="myagenda111" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="col-sm-12  ">
+        <div class="col-sm-12 bg-success text-white"><B>AGENDAMENTO PARA EXECUTAR SERVIÇOS</B></div>
+        <label for="txtNome">Nome</label><br>
+        <input type="text" name="txtNome" id="txtNome" class="form-control" placeholder="Nome Usuário" required>
+        <!-- placeholder-mascara ======required signifaca obrigatorio -->
+      </div>
+
+      <div class="col-sm-4">
+        <label for="txtdataagendamento">Data Agendamento</label><br>
+        <input type="date" name="txtdatagendamento" id="txtdataagendamento" class="form-control" required>
+      </div>
+      <div class="col-sm-6">
+        <label for="txthorario">Faixa de Horario</label><br>
+        <select name="txthorario" id="txthorario" class="form-control" required>
+          <option value="">-- selecione --</option>
+          <option value="Manha">Manha(a)</option>
+          <option value="Tarde">Tarde</option>
+          <option value="Noite">Noite</option>
+        </select>
+      </div>
+      <div class="col-sm-6">
+        <label for="txtservico">Serviço</label><br>
+        <select name="txtservico" id="txtservico" class="form-control" required>
+          <option value="">-- selecione --</option>
+          <option value="Freio">Freio</option>
+          <option value="Suspensao">Suspensao</option>
+          <option value="Eletrica">Eletrica</option>
+          <option value="Revisao">Revisao Automotiva</option>
+          <option value="Pneu">Pneu</option>
+          <option value="Outros">outros</option>
+        </select>
+      </div>
+
+      <div class="col-sm-12">
+        <label for="cidades" class="form-label">Regiao Sao Paulo</label>
+        <input class="form-control" list="datalistOptions" id="cidades" placeholder="escolha a cidade">
+        <datalist id="datalistOptions">
+          <option value="zona Norte">
+          <option value="Zona Sul">
+          <option value="Zona Leste">
+          <option value="Zona Oeste">
+          <option value="Interior">
+        </datalist>
+      </div>
+
+      <div class="col-sm-12">
+        <label for="txtObs">Observação</label> <br>
+        <textarea name="txtStatus" id="txtStatus" class="form-control" cols="30" rows="5"></textarea>
+      </div>
+      <div class="text-end m-auto p-5">
+
+        <button class="btn btn-success">Cadastrar</button>
+
+        <button class="btn btn-danger">Excluir</button>
+        <a href="apresentaçao.html" class="btn btn-dark">Limpar</a>
+      </div>
+    </div>
+    </form>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  </div>
+
+  <script>
+    // Get the modal
+    var modal2 = document.getElementById("myagenda111");
+
+    // Get the button that opens the modal
+    var btn2 = document.getElementById("myBtn111");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal 
+    btn2.onclick = function () {
+      modal2.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal2.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == modal2) {
+        modal2.style.display = "none";
+      }
+    }
+  </script>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("botaomanutencao");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal 
+    btn.onclick = function () {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+*
+{
+    font-family: arial;
+}
+
+.padraomenu
+{
+    height: 100px;
+    margin-left: 0px;
+    font-size: large;
+    
+}
+
+.padraomenuafastar
+{
+    margin-left: 150px;
+    padding-left: 10px;
+    
+}
+
+.padraoabertura
+{
+    height: 700px;
+    margin-left: 0px;
+}
+
+.AGENDAMENTO
+{
+    
+        height: 150px;
+        width: 150px;
+        position: fixed;
+        right: 65px;
+        bottom: 35px; 
+        z-index: 90;
+          
+ }
+
+ .CONTATO
+{
+    
+        height: 150px;
+        width: 140px;
+        position: fixed;
+        right: 340px;
+        bottom: 25px; 
+        z-index: 90;
+          
+ }
+
+ .MANUTENCAOLOGO
+ {
+     height: 150px;
+         width: 150px;
+         position: fixed;
+         right: 200px;
+         bottom: 35px;
+         z-index: 90;
+ }
+
+ .padraoservicos
+{
+    height: 500px;
+    margin-left: 0px;
+    
+}
+
+.feedback
+{
+    height = 300px;
+    width: 300px;
+}
+
+.menuservicos
+{
+    margin-left: 50px;
+    margin-top: -20px;
+
+}
+
+.midiasocial
+{
+
+    margin-left: 600px;
+}
